@@ -6,6 +6,10 @@
 # 注：  
 探测端口采用ICMP，可能需要管理员权限。  
   
+# Usage:  
+go run main.go -h 192.168.1.0/24  
+go run main.go -h 192.168.1.0/16  
+
 # ToDo:  
 1.优化工具的并发  
 2.优化https访问  
